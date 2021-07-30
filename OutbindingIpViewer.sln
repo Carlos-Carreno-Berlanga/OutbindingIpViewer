@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutbindingIpViewer", "OutbindingIpViewer\OutbindingIpViewer.csproj", "{DFA87DB0-B117-4143-A273-AE74513D6ADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutbindingIpViewerDotnetInProcess", "OutbindingIpViewerDotnetInProcess\OutbindingIpViewerDotnetInProcess.csproj", "{5BFC50DB-5C8D-4DED-836B-F17347166988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutbindingIpViewerDotnetInProcess", "OutbindingIpViewerDotnetInProcess\OutbindingIpViewerDotnetInProcess.csproj", "{5BFC50DB-5C8D-4DED-836B-F17347166988}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
