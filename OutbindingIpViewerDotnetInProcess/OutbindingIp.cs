@@ -22,14 +22,10 @@ namespace OutbindingIpViewerDotnetInProcess
             ILogger log)
         {
 
-            var ipAddres = await _httpClient.GetAsync(GetEnvironmentVariable("requestIpUrl"));
+            var ipAddresResponse = await _httpClient.GetAsync(GetEnvironmentVariable("requestIpUrl"));
+            var ipAddres = await ipAddresResponse.Content.ReadAsStringAsync();
+
             return new OkObjectResult("Ipaddres:" + ipAddres);
-
-
-            log.LogInformation("C# HTTP trigger function processed a request.");
-            string result = req.HttpContext.Connection.RemoteIpAddress.ToString();
-
-            return new OkObjectResult(result);
 
         }
     }
